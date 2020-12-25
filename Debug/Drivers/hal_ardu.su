@@ -1,0 +1,3 @@
+hal_ardu.cpp:4:6:void digitalWrite(char, bool)	8	static
+hal_ardu.cpp:19:6:void pinMode(char, int)	0	static
+hal_ardu.cpp:29:6:void delayMicroseconds(int)	0	static

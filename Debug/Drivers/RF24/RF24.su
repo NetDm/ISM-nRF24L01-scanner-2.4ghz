@@ -1,0 +1,69 @@
+RF24.cpp:17:6:void RF24::csn(bool)	8	static
+RF24.cpp:62:6:void RF24::ce(bool)	8	static
+RF24.cpp:88:9:uint8_t RF24::read_register(uint8_t, uint8_t*, uint8_t)	48	static
+RF24.cpp:126:9:uint8_t RF24::read_register(uint8_t)	32	static
+RF24.cpp:157:9:uint8_t RF24::write_register(uint8_t, const uint8_t*, uint8_t)	40	static
+RF24.cpp:189:9:uint8_t RF24::write_register(uint8_t, uint8_t)	40	static
+RF24.cpp:219:9:uint8_t RF24::write_payload(const void*, uint8_t, uint8_t)	48	static
+RF24.cpp:266:9:uint8_t RF24::read_payload(void*, uint8_t)	48	static
+RF24.cpp:335:9:uint8_t RF24::spiTrans(uint8_t)	32	static
+RF24.cpp:321:9:uint8_t RF24::flush_rx()	8	static
+RF24.cpp:328:9:uint8_t RF24::flush_tx()	8	static
+RF24.cpp:348:9:uint8_t RF24::get_status()	8	static
+RF24.cpp:355:6:void RF24::print_status(uint8_t)	24	static
+RF24.cpp:369:6:void RF24::print_observe_tx(uint8_t)	8	static
+RF24.cpp:380:6:void RF24::print_byte_register(const char*, uint8_t, uint8_t)	24	static
+RF24.cpp:396:6:void RF24::print_address_register(const char*, uint8_t, uint8_t)	48	dynamic
+RF24.cpp:420:1:RF24::RF24(uint8_t, uint8_t)	16	static
+RF24.cpp:439:6:void RF24::setChannel(uint8_t)	8	static
+RF24.cpp:445:9:uint8_t RF24::getChannel()	8	static
+RF24.cpp:452:6:void RF24::setPayloadSize(uint8_t)	0	static
+RF24.cpp:459:9:uint8_t RF24::getPayloadSize()	0	static
+RF24.cpp:514:6:void RF24::printDetails()	0	static
+RF24.cpp:731:6:void RF24::stopListening()	8	static
+RF24.cpp:759:6:void RF24::powerDown()	8	static
+RF24.cpp:768:6:void RF24::powerUp()	8	static
+RF24.cpp:875:6:void RF24::reUseTX()	8	static
+RF24.cpp:929:6:void RF24::startFastWrite(const void*, uint8_t, bool, bool)	16	static
+RF24.cpp:799:6:bool RF24::write(const void*, uint8_t, bool)	24	static
+RF24.cpp:835:6:bool RF24::write(const void*, uint8_t)	8	static
+RF24.cpp:841:6:bool RF24::writeBlocking(const void*, uint8_t, uint32_t)	32	static
+RF24.cpp:884:6:bool RF24::writeFast(const void*, uint8_t, bool)	32	static
+RF24.cpp:918:6:bool RF24::writeFast(const void*, uint8_t)	8	static
+RF24.cpp:943:6:void RF24::startWrite(const void*, uint8_t, bool)	8	static
+RF24.cpp:960:6:bool RF24::rxFifoFull()	8	static
+RF24.cpp:965:6:bool RF24::txStandBy()	16	static
+RF24.cpp:993:6:bool RF24::txStandBy(uint32_t, bool)	32	static
+RF24.cpp:1028:6:void RF24::maskIRQ(bool, bool, bool)	24	static
+RF24.cpp:1040:9:uint8_t RF24::getDynamicPayloadSize()	32	static
+RF24.cpp:1071:6:bool RF24::available(uint8_t*)	16	static
+RF24.cpp:1064:6:bool RF24::available()	8	static
+RF24.cpp:1091:6:void RF24::read(void*, uint8_t)	8	static
+RF24.cpp:1103:6:void RF24::whatHappened(bool&, bool&, bool&)	16	static
+RF24.cpp:1117:6:void RF24::openWritingPipe(uint64_t)	24	static
+RF24.cpp:1132:6:void RF24::openWritingPipe(const uint8_t*)	16	static
+RF24.cpp:1156:6:void RF24::openReadingPipe(uint8_t, uint64_t)	24	static
+RF24.cpp:1183:6:void RF24::setAddressWidth(uint8_t)	16	static
+RF24.cpp:1194:6:void RF24::openReadingPipe(uint8_t, const uint8_t*)	16	static
+RF24.cpp:1222:6:void RF24::closeReadingPipe(uint8_t)	16	static
+RF24.cpp:700:6:void RF24::startListening()	8	static
+RF24.cpp:1229:6:void RF24::toggle_features()	32	static
+RF24.cpp:1239:6:void RF24::enableDynamicPayloads()	8	static
+RF24.cpp:1260:6:void RF24::enableAckPayload()	8	static
+RF24.cpp:1281:6:void RF24::enableDynamicAck()	8	static
+RF24.cpp:1295:6:void RF24::writeAckPayload(uint8_t, const void*, uint8_t)	40	static
+RF24.cpp:1326:6:bool RF24::isAckPayloadAvailable()	8	static
+RF24.cpp:1333:6:bool RF24::isPVariant()	0	static
+RF24.cpp:1340:6:void RF24::setAutoAck(bool)	8	static
+RF24.cpp:1350:6:void RF24::setAutoAck(uint8_t, bool)	16	static
+RF24.cpp:1369:6:bool RF24::testCarrier()	8	static
+RF24.cpp:1376:6:bool RF24::testRPD()	8	static
+RF24.cpp:1383:6:void RF24::setPALevel(uint8_t)	16	static
+RF24.cpp:1400:9:uint8_t RF24::getPALevel()	8	static
+RF24.cpp:1408:6:bool RF24::setDataRate(rf24_datarate_e)	16	static
+RF24.cpp:573:6:bool RF24::begin()	16	static
+RF24.cpp:1458:17:rf24_datarate_e RF24::getDataRate()	8	static
+RF24.cpp:1485:6:void RF24::setCRCLength(rf24_crclength_e)	16	static
+RF24.cpp:1508:18:rf24_crclength_e RF24::getCRCLength()	16	static
+RF24.cpp:1528:6:void RF24::disableCRC()	8	static
+RF24.cpp:1535:6:void RF24::setRetries(uint8_t, uint8_t)	8	static

@@ -1,0 +1,4 @@
+Scanner.cpp:50:6:void setupScann()	32	static
+Scanner.cpp:99:6:void loopScann()	40	static
+Scanner.cpp:140:1:cpp)	8	static
+Scanner.cpp:140:1:cpp)	8	static
